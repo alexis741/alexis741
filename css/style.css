@@ -984,7 +984,7 @@ p {
   bottom: 0;
   width: 40px;
   height: 2px;
-  margin-left: -20px;
+  margin-left: 0;
 }
 #fh5co-events .fh5co-event p {
   font-size: 14px;
