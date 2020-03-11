@@ -13,7 +13,7 @@ body {
   color: #000;
 }
 body.fh5co-overflow {
-  overflow-x: auto;
+  overflow-x: hidden;
 }
 
 a {
@@ -391,14 +391,14 @@ p {
   -webkit-flex-wrap: wrap;
   -moz-flex-wrap: wrap;
   background: #e6e6e6;
-  width: 100%;
+  width: auto;
 }
 #fh5co-about .fh5co-2col {
   width: 50%;
 }
 @media screen and (max-width: 1200px) {
   #fh5co-about .fh5co-2col {
-    width: 90%;
+    width: 100%;
   }
 }
 #fh5co-about .fh5co-text {
@@ -509,12 +509,12 @@ p {
 }
 #fh5co-sayings .flexslider .slides li blockquote p {
   font-size: 40px;
-  line-height: 1.5;
+  line-height: 1.25;
 }
 @media screen and (max-width: 768px) {
   #fh5co-sayings .flexslider .slides li blockquote p {
     font-size: 20px;
-    line-height: 1.5;
+    line-height: 1.25;
   }
 }
 #fh5co-sayings .flexslider .slides li blockquote p.quote-author {
