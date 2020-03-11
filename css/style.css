@@ -945,7 +945,7 @@ p {
 }
 #fh5co-events .fh5co-event {
   background: #fff;
-  padding: 25px;
+  padding: 15px;
   text-align: center;
   margin-bottom: 10px;
   position: relative;
@@ -984,10 +984,10 @@ p {
   bottom: 0;
   width: 40px;
   height: 2px;
-  margin-left: 0;
+  margin-left: -20px;
 }
 #fh5co-events .fh5co-event p {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.5;
 }
 #fh5co-events .fh5co-event p:last-child {
