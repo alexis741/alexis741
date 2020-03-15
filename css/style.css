@@ -901,7 +901,7 @@ p {
 }
 
 #fh5co-events {
-  padding: 5em 0;
+  padding: 0em 0;
   background-color: transparent;
   background-size: cover;
   background-attachment: fixed;
@@ -927,11 +927,11 @@ p {
 }
 #fh5co-events .fh5co-heading .heading:before, #fh5co-events .fh5co-heading .heading::before {
   height: 64px;
-  width: 49px;
+  width: 40px;
   position: absolute;
   content: "";
   top: 0;
-  left: 50%;
+  left: 0;
   margin-top: -50px;
   margin-left: -24px;
 }
@@ -940,7 +940,7 @@ p {
 }
 @media screen and (max-width: 768px) {
   #fh5co-events {
-    padding: 5em 0;
+    padding: 0em 0;
   }
 }
 #fh5co-events .fh5co-event {
@@ -957,7 +957,7 @@ p {
   top: 5px;
   bottom: 5px;
   right: 5px;
-  left: 5px;
+  left: 1px;
   z-index: 0;
 }
 #fh5co-events .fh5co-event h3, #fh5co-events .fh5co-event .fh5co-event-meta, #fh5co-events .fh5co-event p, #fh5co-events .fh5co-event .btn {
