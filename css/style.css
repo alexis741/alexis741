@@ -63,18 +63,18 @@ p {
 }
 
 .btn-primary {
-  background: #B22222;
+  background: #cc0000;
   color: #fff;
   border: 2px solid #fff;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background: #B22222	!important;
-  border-color: #B22222 !important;
+  background: #cc0000	!important;
+  border-color: #cc0000 !important;
 }
 .btn-primary.btn-outline {
-  background: #B22222	!important;
+  background: #cc0000	!important;
   color: #FFF;
-  border: 2px solid #B22222;
+  border: 2px solid #cc0000;
 }
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
   background: #FF0000;
@@ -404,7 +404,7 @@ p {
 #fh5co-about .fh5co-text {
   padding: 2em 6em;
   text-align: left;
-  background: rgba(45, 1, 1, .95) repeat;
+  background: rgba(50, 0, 0, .95) repeat;
 }
 @media screen and (max-width: 1200px) {
   #fh5co-about .fh5co-text {
@@ -551,7 +551,7 @@ p {
   position: relative;
   background: transparent;
   box-shadow: none;
-  border: 2px solid rgba(75, 1, 1, 1);
+  border: 2px solid rgba(50, 0, 0, .95);
 }
 
 #fh5co-featured {
@@ -698,16 +698,16 @@ p {
   background: #ffffff;
 }
 #fh5co-featured .fh5co-grid > .fh5co-v-half .fh5co-special-1 {
-  background: #b20000;
+  background: #cc0000;
 }
 #fh5co-featured .fh5co-grid > .fh5co-v-half .fh5co-special-1.arrow-left:before, #fh5co-featured .fh5co-grid > .fh5co-v-half .fh5co-special-1.arrow-left::before {
-  border-right: 15px solid #b20000;
+  border-right: 15px solid #cc0000;
 }
 @media screen and (max-width: 768px) {
   #fh5co-featured .fh5co-grid > .fh5co-v-half .fh5co-special-1.arrow-left:before, #fh5co-featured .fh5co-grid > .fh5co-v-half .fh5co-special-1.arrow-left::before {
     border-left: 15px solid transparent !important;
     border-right: 15px solid transparent !important;
-    border-bottom: 20px solid #b20000 !important;
+    border-bottom: 20px solid #cc0000 !important;
   }
 }
 #fh5co-featured .fh5co-grid > .fh5co-v-half > .fh5co-v-col-2 {
@@ -852,7 +852,7 @@ p {
 #fh5co-menus .fh5co-food-menu ul li {
   padding: 0 0 10px 0;
   margin: 0 0 20px 0;
-  border-bottom: 1px #B22222;
+  border-bottom: 1px #cc0000;
   display: block;
   float: left;
   width: 100%;
@@ -890,7 +890,7 @@ p {
   margin: 0 0 5px 0;
   padding: 0;
   font-size: 18px;
-  color: #B22222;
+  color: #cc0000;
 }
 #fh5co-menus .fh5co-food-menu ul li .fh5co-food-pricing {
   float: right;
