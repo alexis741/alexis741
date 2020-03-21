@@ -1059,7 +1059,7 @@ p {
 #fh5co-contact input[type=text], select, textarea {
   width: 100%;
   height: 100%;
-  padding: 5px;
+  padding: 15px;
   border: 1px solid #b20000;
   border-radius: 4px;
   box-sizing: border-box;
