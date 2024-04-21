@@ -16,6 +16,11 @@ body {
 body.fh5co-overflow {
   overflow-x: hidden;
 }
+@media screen and (max-width: 992px) {
+  body {
+    overflow-x: hidden;
+  }
+}
 
 a {
   color: #FFF;
@@ -334,7 +339,7 @@ p {
 .fh5co-main-nav .fh5co-logo {
   text-align: center;
   width: 19.33%;
-  font-size: 35px;
+  font-size: 25px;
   font-family: "Playfair Display", serif;
   font-weight: 700;
   font-style: italic;
@@ -1133,6 +1138,7 @@ p {
   height: 100%;
   left: 0;
   overflow-y: auto;
+  overflow-x: hidden;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -1206,10 +1212,12 @@ p {
 
 .js-sticky {
   display: block;
+  overflow-y: hidden;
 }
 @media screen and (max-width: 768px) {
   .js-sticky {
     display: none;
+    overflow-y: hidden;
   }
 }
 
